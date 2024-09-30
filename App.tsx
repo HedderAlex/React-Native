@@ -18,7 +18,7 @@ function HomeScreen({navigation}){
         alignItems:'center',
       }}>
         <Image
-        source={require('./images/js.jpg')}
+        source={require('./images/foto.jpg')}
       />
          <Text style={{fontSize: 30}}>
             Hédder Alex Versiane Barduco Filho
