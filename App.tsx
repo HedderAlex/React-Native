@@ -32,7 +32,7 @@ function HomeScreen({navigation}){
             marginVertical: 10,
             fontSize: 25,
             textAlign: "center"
-          }}>Linkedin</Text>
+          }} onPress={()=>{Linking.openURL('https://www.linkedin.com/in/hédder-alex-versiane-barduco-filho-82642626a/')}}>Linkedin</Text>
          </TouchableOpacity>
          <TouchableOpacity style={{width:240}}>
           <Text style={{
@@ -43,7 +43,7 @@ function HomeScreen({navigation}){
             marginVertical: 10,
             fontSize: 25,
             textAlign: "center"
-          }}>Github</Text>
+          }}onPress={()=>{Linking.openURL('https://github.com/HedderAlex')}}>Github</Text>
          </TouchableOpacity>
          <TouchableOpacity style={{width:240}}>
           <Text style={{
@@ -54,7 +54,7 @@ function HomeScreen({navigation}){
             marginVertical: 10,
             fontSize: 25,
             textAlign: "center"
-          }}>E-mail</Text>
+          }}onPress={()=>{Linking.openURL('mailto:heddercontato@gmail.com')}}>E-mail</Text>
          </TouchableOpacity>
          <TouchableOpacity
           onPress={()=>navigation.navigate('Minhas Habilidades')}
@@ -95,8 +95,6 @@ function HomeSecundaria({navigation}){
      </View>
   );
 }
-
-
 
 //Configurar as rotas no Stack Navigator 
 
